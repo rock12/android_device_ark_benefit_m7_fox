@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml
 
 # Inherit memory configurations
-$(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
+# $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
 # Inherit the rest from the regular porridge
 $(call inherit-product, device/wileyfox/porridge/device.mk)
