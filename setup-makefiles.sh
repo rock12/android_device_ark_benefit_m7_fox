@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DEVICE=porridgek3
-VENDOR=wileyfox
+DEVICE=benefit_m7
+VENDOR=ark
 
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
@@ -53,8 +53,8 @@ endif
 ifeq (\$(WITH_GMS),true)
 
 PRODUCT_COPY_FILES += \\
-    vendor/wileyfox/porridgek3/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \\
-    vendor/wileyfox/porridgek3/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar
+    vendor/ark/benefit_m7/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \\
+    vendor/ark/benefit_m7/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar
 
 endif # WITH_GMS
 
@@ -148,7 +148,7 @@ EOF
 
 LOCAL_PATH := \$(call my-dir)
 
-ifeq (\$(TARGET_DEVICE),porridgek3)
+ifeq (\$(TARGET_DEVICE),benefit_m7)
 ifeq (\$(MTKPATH),)
 
 # Proprietary Modules go here

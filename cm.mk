@@ -12,23 +12,23 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-VENDOR_BLOBS := vendor/wileyfox/porridgek3/porridgek3-vendor.mk
+VENDOR_BLOBS := vendor/ark/benefit_m7/benefit_m7-vendor.mk
 
-$(call inherit-product, device/wileyfox/porridgek3/full_porridgek3.mk)
+$(call inherit-product, device/ark/benefit_m7/full_benefit_m7.mk)
 
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 
-PRODUCT_NAME := cm_porridgek3
-BOARD_VENDOR := wileyfox
-PRODUCT_DEVICE := porridgek3
+PRODUCT_NAME := cm_benefit_m7
+BOARD_VENDOR := ark
+PRODUCT_DEVICE := benefit_m7
 
-PRODUCT_GMS_CLIENTID_BASE := android-wileyfox
+PRODUCT_GMS_CLIENTID_BASE := android-benefit_m7
 
-PRODUCT_MANUFACTURER := Wileyfox
-PRODUCT_MODEL := Wileyfox Spark X
+PRODUCT_MANUFACTURER := Ark
+PRODUCT_MODEL := Ark Benefit M7
 
-PRODUCT_BRAND := Wileyfox
-TARGET_VENDOR := wileyfox
-TARGET_VENDOR_PRODUCT_NAME := Spark_X
-TARGET_VENDOR_DEVICE_NAME := porridgek3
+PRODUCT_BRAND := Ark
+TARGET_VENDOR := ark
+TARGET_VENDOR_PRODUCT_NAME := Benefit M7
+TARGET_VENDOR_DEVICE_NAME := benefit_m7
