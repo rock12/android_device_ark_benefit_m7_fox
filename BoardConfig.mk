@@ -20,5 +20,5 @@ include device/wileyfox/porridge/BoardConfig.mk
 
 BOARD_USERDATAIMAGE_PARTITION_SIZE:=12353781760
 
-TARGET_KERNEL_CONFIG := cyanogenmod_benefit_m7_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_porridgek3_defconfig
 TARGET_BOOTLOADER_BOARD_NAME := BENEFIT_M7
