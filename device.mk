@@ -24,3 +24,7 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the rest from the regular porridge
 $(call inherit-product, device/wileyfox/porridge/device.mk)
+
+# Live Display
+PRODUCT_PACKAGES += \
+	libjni_livedisplay
